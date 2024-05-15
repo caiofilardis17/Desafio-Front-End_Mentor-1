@@ -1,0 +1,50 @@
+
+
+.container {
+    display: flex;
+   /*  justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 250px;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 25px;
+
+}
+.img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.img img {
+    border-radius: 50px;
+}
+
+.nome {
+    display: inline;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container ul {
+    display: flex;
+    margin-top: 15px; 
+    align-items: center;
+
+}
+
+.container li {
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
